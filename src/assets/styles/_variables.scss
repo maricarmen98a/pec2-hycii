@@ -9,6 +9,7 @@ $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 $fondo: #ace0f1;
 $mqMinWidth: 420px;
 $bg: black;
-$gris: rgba(247, 247, 247, .55);
+$gris1: rgba(247, 247, 247);
+$gris: color.scale($gris1, $lightness: 55%);
 
 /*  linear-gradient(115deg, rgb(155, 198, 230) 30%, rgba(172,224,241,1) 53%, rgb(100, 179, 239) 100%); */
