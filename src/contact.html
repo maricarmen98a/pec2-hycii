@@ -7,23 +7,34 @@
   </head>
   <body>
     <include src="./views/nav.html"></include>
-    
-    <form name="contact" method="POST" data-netlify="true">
-      <p>
-        <label>Nombre: <input type="text" name="name" /></label>
-      </p>
-      <p>
-        <label>Correo electrónico: <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <label>Mensaje: <textarea name="message"></textarea></label>
-      </p>
-      <p>
-        <button type="submit">Enviar</button>
-      </p>
-    </form>
+    <div class="form">
+      
+      <div class="contact-box">
+        <h2>Contáctanos</h2>
+        <form>
+          <div class="user-box">
+            <input type="text" name="name" required="">
+            <label>Nombre</label>
+          </div>
+          <div class="user-box">
+            <input type="email" name="email" required="">
+            <label>Correo electrónico</label>
+          </div>
+          <div class="user-box">
+            <textarea name="message" required=""></textarea>
+            <label>Mensaje</label>
+          </div>
+          <a id="form-submit" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </a>
+        </form>
+      </div>
+    </div>
 
-    
     <div class="maps">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.8599611058366!2d-3.622417564232038!3d40.47836300092543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422e60460a6f29%3A0x2e87a6c158956233!2sAv.%20de%20Alejandro%20de%20la%20Sota%2C%2051%2C%2028055%20Madrid%2C%20Spain!5e0!3m2!1sen!2sie!4v1650448829096!5m2!1sen!2sie" width="300" height="300" style="border:0;"></iframe>
       <div class="maps__info">
@@ -33,4 +44,18 @@
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script>
   </body>
-</html>
+</html><!-- 
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Nombre: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Correo electrónico: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Mensaje: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Enviar</button>
+        </p>
+      </form>  -->

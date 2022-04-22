@@ -11,3 +11,7 @@
  */
 import * as bootstrap from 'bootstrap';
  
+function showAlert() {
+    alert ("Mensaje correctamente enviado");
+  }
+  document.getElementById("form-submit").addEventListener("click", showAlert);
