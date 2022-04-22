@@ -21,7 +21,7 @@ body {
   color: rgba(247, 247, 247, .55);
   border-color: rgba(247, 247, 247, .55);
 }
-.menu--burger img {
+.menu__burger img {
   max-width: 25px;
   max-height: 20px;
 }
@@ -112,7 +112,7 @@ body {
     box-shadow: 10px 10px 5px rgba(107, 109, 110, .641);
   }
 }
-.maps--info {
+.maps__info {
   padding-top: 30px;
 }
 /* Footer */
@@ -121,6 +121,8 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .footer li {
   list-style-type: none;

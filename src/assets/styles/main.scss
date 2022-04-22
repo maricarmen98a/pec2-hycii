@@ -2,7 +2,6 @@
  * Use this file to import partials.
  * Do not include SCSS code in this file.
  */
- @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Inter:wght@400;500&family=Poppins:wght@800&family=Sansita+Swashed:wght@300;400&display=swap');/**
 
 /**
  * Import variables
@@ -53,7 +52,9 @@
  */
 
 @import "layouts/home";
-@import "layouts/home-grid";
+@import "layouts/homegrid";
+@import "layouts/participantes";
+@import "layouts/blog";
 
 /**
  * Do NOT include anything else in this file!
